@@ -1,25 +1,4 @@
-# srcset-polyfill
-Simple polyfill for srcset.
-
-## Usage
-In your project import the library:
-
-```js
-import srcsetPolyfill from ‘srcset-polyfill;
-```
-
-### srcsetPolyfill()
-
-Initializes library.
-
-## Example
-```js
-  SrcsetPolyfill();
-```
-
-## License
-
-### MIT License
+MIT License
 
 Copyright (c) 2017 First+Third
 
