@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Srcset-Polyfill Example</title>
+    <script src="../dist/srcset-polyfill.js"></script>
+  </head>
+  <body>
+
+    <div class="image-wrapper">
+      <picture>
+        <source srcset="http://placehold.it/500x500" media="(min-width: 768px)">
+        <img srcset="http://placehold.it/250x250">
+      </picture>
+    </div>
+
+    <script>
+      SrcsetPolyfill();
+    </script>
+
+  </body>
+</html>
